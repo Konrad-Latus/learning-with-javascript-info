@@ -1,0 +1,1 @@
+alert( 1 && null && 2 ); // Code will output null, it's the first falsy value
