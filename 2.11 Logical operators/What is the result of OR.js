@@ -1,0 +1,1 @@
+alert( null || 2 || undefined ); // Code will output 2 becouse it is the first truthy value
