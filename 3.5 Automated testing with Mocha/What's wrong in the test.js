@@ -14,19 +14,17 @@ it("Raises x to the power n", function() {
 
 
   describe("Raises x to the power n", function() {
-    let x = 5;
-
-    let result = x;
+    
     it("5 raised to power 1 is 5", function() {
-        assert.equal(pow(x, 1), result);
+        assert.equal(pow(5, 1), 5);
     });
 
     it("5 raised to power 2 is 25", function() {
-        assert.equal(pow(x, 2), result);
+        assert.equal(pow(5, 2), 25);
     });
 
     it("5 raised to power 3 is 125", function() {
-        assert.equal(pow(x, 3), result);
+        assert.equal(pow(5, 3), 125);
     });
     
   })
